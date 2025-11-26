@@ -1,6 +1,6 @@
 # TranslateABC 🌐
 
-> Ứng dụng dịch văn bản trên màn hình nhanh chóng và tiện lợi
+> Ứng dụng dịch văn bản trên màn hình
 
 ![TranslateABC](Images/TranslateABC.png)
 
@@ -17,22 +17,20 @@
 
 1. **Khởi động app** và cấu hình API key (Gemini hoặc OpenAI)
 2. **Chọn cửa sổ** cần dịch
-3. **Nhấn F2** hoặc click nút "Dịch" để chọn vùng văn bản
+3. **Nhấn ]** hoặc click nút "Dịch" để chọn vùng văn bản
 4. **Xem bản dịch** hiển thị ngay trên màn hình
 
 ## ⚙️ Cài đặt
 
 ### Tải về
-- **Portable**: Giải nén `TranslateABC_Portable.zip` và chạy `TranslateABC.exe`
+
 - **Installer**: Chạy `TranslateABC_Setup.exe` để cài đặt
 
 ### Yêu cầu hệ thống
 - Windows 10/11 (64-bit)
-- .NET 8.0 Runtime (tự động cài đặt)
+- .NET 8.0 Runtime
 
 ## 🔑 Cấu hình API
-
-App hỗ trợ 2 dịch vụ dịch:
 
 ### Google Gemini (Khuyến nghị - Miễn phí)
 1. Truy cập [Google AI Studio](https://aistudio.google.com/app/apikey)
@@ -48,7 +46,8 @@ App hỗ trợ 2 dịch vụ dịch:
 
 | Phím | Chức năng |
 |------|-----------|
-| **F2** | Chọn vùng mới để dịch |
+| **[** | Dịch vùng đã chọn |
+| **]** | Chọn vùng mới để dịch |
 | **ESC** | Đóng overlay dịch |
 
 ## 🎨 Tính năng nổi bật
@@ -56,24 +55,8 @@ App hỗ trợ 2 dịch vụ dịch:
 ### OCR chính xác
 Sử dụng Windows OCR engine tích hợp sẵn, nhận diện văn bản nhanh và chính xác
 
-### Overlay thông minh
-- Background mờ nhẹ che text gốc
-- Text dịch căn giữa hoàn hảo
-- Tự động điều chỉnh kích thước
-
-### Tùy chỉnh linh hoạt
-- Chọn ngôn ngữ nguồn và đích
-- Tùy chỉnh prompt dịch
-- Điều chỉnh tốc độ đọc TTS
-
 ## 📝 Giấy phép
 
 MIT License - Sử dụng tự do cho mục đích cá nhân và thương mại
-
-## 🤝 Đóng góp
-
-Mọi đóng góp đều được chào đón! Hãy tạo issue hoặc pull request.
-
----
 
 Made with ❤️ for Vietnamese users
