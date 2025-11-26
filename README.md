@@ -23,7 +23,7 @@
 ## ⚙️ Cài đặt
 
 ### Tải về
-
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge&logo=github)](https://github.com/dat-hoangnguyentuandat/TranslateABC/releases/tag/v1.0.0)
 - **Installer**: Chạy `TranslateABC_Setup.exe` để cài đặt
 
 ### Yêu cầu hệ thống
